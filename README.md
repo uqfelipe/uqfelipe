@@ -10,7 +10,7 @@
 
 ### 📈 Minhas Atividades Recentes
 
-![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=uqfelipe&bg_color=0d1117&color=79ff97&line=79ff97&point=f5f5f5&area=true&hide_border=true)
+![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?uqfelipe=uqfelipe&bg_color=0d1117&color=79ff97&line=79ff97&point=f5f5f5&area=true&hide_border=true)
 
 ---
 
