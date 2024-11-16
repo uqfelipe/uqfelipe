@@ -8,7 +8,7 @@
 
 ---
 
-### 📊 Estatísticas do GitHub
+### 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=uqfelipe&show_icons=true&theme=radical&hide=stars" alt="Estatísticas do GitHub de uqfelipe" height="150" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uqfelipe&layout=compact&theme=radical" alt="Linguagens mais usadas por uqfelipe" height="150" />
@@ -16,15 +16,22 @@
 
 ---
 
+### 🐍 Animação dos Meus Commits
+<p align="center">
+  <img src="https://github.com/uqfelipe/uqfelipe/blob/output/github-contribution-grid-snake.svg" alt="Cobrinha comendo os commits" />
+</p>
+
+---
+
 ### 🚀 Sobre Mim
-- 🌟 Sou um **Desenvolvedor Full-Stack** apaixonado por criar aplicações modernas, escaláveis e fáceis de usar.
+- 🌟 Sou um **Desenvolvedor Full-Stack** apaixonado por criar aplicações modernas, escaláveis e amigáveis para o usuário.
 - 🎯 Focado em **JavaScript**, **TypeScript** e frameworks como **React**, **Node.js** e **Express**.
-- 📚 Sempre aprendendo e explorando as últimas tendências em tecnologia.
+- 📚 Sempre aprendendo e explorando as últimas tendências tecnológicas.
 - 💼 Atualmente, estou trabalhando em **projetos pessoais** e colaborando em iniciativas **open-source**.
 
 ---
 
-### 🛠️ Stack Tecnológico
+### 🛠️ Tecnologias
 
 #### Frontend
 - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -37,14 +44,14 @@
 - ![Express.js](https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white)
 - ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-#### Ferramentas & Plataformas
+#### Ferramentas e Plataformas
 - ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 - ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 - ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
 
-### 🌐 Conecte-se Comigo
+### 🌐 Entre em Contato
 <p align="center">
   <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
@@ -61,13 +68,13 @@
 
 ### 🌟 Projetos em Destaque
 #### 🛒 [Aplicativo de E-Commerce](https://github.com/uqfelipe/e-commerce-app)
-Uma plataforma de e-commerce elegante e responsiva, construída com **React** e **Node.js**.
+Uma plataforma de e-commerce elegante e responsiva, desenvolvida com **React** e **Node.js**.
 
-#### 🌍 [Site de Portfólio](https://uqfelipe.dev)
-Um site de portfólio moderno mostrando minhas habilidades e projetos.
+#### 🌍 [Website de Portfólio](https://uqfelipe.dev)
+Um site de portfólio moderno que exibe minhas habilidades e projetos.
 
 #### 📊 [Visualizador de Estatísticas do GitHub](https://github.com/uqfelipe/github-stats)
-Uma ferramenta para visualizar estatísticas do GitHub dinamicamente usando **D3.js**.
+Uma ferramenta interessante para visualizar estatísticas do GitHub dinamicamente usando **D3.js**.
 
 ---
 
