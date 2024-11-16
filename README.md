@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hello, I'm Felipe (uqfelipe)!</h1>
+<h1 align="center">👋 Olá, eu sou Felipe (uqfelipe)!</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Developer-FullStack-blue?style=for-the-badge&logo=github" alt="Developer Badge" />
@@ -8,15 +8,23 @@
 
 ---
 
-### 🚀 About Me
-- 🌟 I'm a passionate **Full-Stack Developer** with a love for building modern, scalable, and user-friendly applications.
-- 🎯 Focused on **JavaScript**, **TypeScript**, and frameworks like **React**, **Node.js**, and **Express**.
-- 📚 Continuously learning and exploring the latest tech trends.
-- 💼 Currently working on **personal projects** and collaborating on **open-source** initiatives.
+### 📊 Estatísticas do GitHub
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=uqfelipe&show_icons=true&theme=radical&hide=stars" alt="Estatísticas do GitHub de uqfelipe" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uqfelipe&layout=compact&theme=radical" alt="Linguagens mais usadas por uqfelipe" height="150" />
+</p>
 
 ---
 
-### 🛠️ Tech Stack
+### 🚀 Sobre Mim
+- 🌟 Sou um **Desenvolvedor Full-Stack** apaixonado por criar aplicações modernas, escaláveis e fáceis de usar.
+- 🎯 Focado em **JavaScript**, **TypeScript** e frameworks como **React**, **Node.js** e **Express**.
+- 📚 Sempre aprendendo e explorando as últimas tendências em tecnologia.
+- 💼 Atualmente, estou trabalhando em **projetos pessoais** e colaborando em iniciativas **open-source**.
+
+---
+
+### 🛠️ Stack Tecnológico
 
 #### Frontend
 - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -29,22 +37,14 @@
 - ![Express.js](https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white)
 - ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-#### Tools & Platforms
+#### Ferramentas & Plataformas
 - ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 - ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 - ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=uqfelipe&show_icons=true&theme=radical&hide=stars" alt="uqfelipe's GitHub Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uqfelipe&layout=compact&theme=radical" alt="uqfelipe's Top Languages" height="150" />
-</p>
-
----
-
-### 🌐 Connect with Me
+### 🌐 Conecte-se Comigo
 <p align="center">
   <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
@@ -59,18 +59,18 @@
 
 ---
 
-### 🌟 Featured Projects
-#### 🛒 [E-Commerce App](https://github.com/uqfelipe/e-commerce-app)
-An elegant and responsive e-commerce platform built with **React** and **Node.js**.
+### 🌟 Projetos em Destaque
+#### 🛒 [Aplicativo de E-Commerce](https://github.com/uqfelipe/e-commerce-app)
+Uma plataforma de e-commerce elegante e responsiva, construída com **React** e **Node.js**.
 
-#### 🌍 [Portfolio Website](https://uqfelipe.dev)
-A sleek portfolio website showcasing my skills and projects.
+#### 🌍 [Site de Portfólio](https://uqfelipe.dev)
+Um site de portfólio moderno mostrando minhas habilidades e projetos.
 
-#### 📊 [GitHub Stats Visualizer](https://github.com/uqfelipe/github-stats)
-A cool tool to visualize GitHub stats dynamically using **D3.js**.
+#### 📊 [Visualizador de Estatísticas do GitHub](https://github.com/uqfelipe/github-stats)
+Uma ferramenta para visualizar estatísticas do GitHub dinamicamente usando **D3.js**.
 
 ---
 
 <p align="center">
-  🚀 *Let's create something amazing together!* 🚀
+  🚀 *Vamos criar algo incrível juntos!* 🚀
 </p>
