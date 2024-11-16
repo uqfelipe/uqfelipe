@@ -8,18 +8,9 @@
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=uqfelipe&show_icons=true&theme=radical&hide=stars" alt="Estatísticas do GitHub de uqfelipe" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uqfelipe&layout=compact&theme=radical" alt="Linguagens mais usadas por uqfelipe" height="150" />
-</p>
-
----
-
 ### 📈 Minhas Atividades Recentes
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=uqfelipe&bg_color=0d1117&color=79ff97&line=79ff97&point=f5f5f5&area=true&hide_border=true)
-
 
 ---
 
@@ -53,14 +44,23 @@
 
 ### 🌐 Entre em Contato
 <p align="center">
-  <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+  <a href="https://instagram.com/felipebytes" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge" />
   </a>
-  <a href="mailto:seuemail@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge" />
+  <a href="https://twitter.com/felipebytes" target="_blank">
+    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge" />
   </a>
-  <a href="https://discord.com/users/seu-discord" target="_blank">
-    <img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Badge" />
+  <a href="https://wa.me/5533998352941" target="_blank">
+    <img src="https://img.shields.io/badge/-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Badge" />
+  </a>
+  <a href="https://t.me/ufelipe" target="_blank">
+    <img src="https://img.shields.io/badge/-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge" />
+  </a>
+  <a href="mailto:ufelipe@icloud.com">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" />
+  </a>
+  <a href="https://www.youtube.com/felipebytes" target="_blank">
+    <img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Badge" />
   </a>
 </p>
 
