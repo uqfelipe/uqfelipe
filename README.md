@@ -24,3 +24,121 @@ mas você pode adicionar a sua própria, seguindo esse [tutorial](https://github
   <a href="https://www.linkedin.com/in/felipebytes" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   
 </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive GitHub Stats Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #c9d1d9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .stats-card {
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      padding: 20px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+      position: relative;
+      overflow: hidden;
+    }
+    .stats-card h1 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #9f7aea;
+      text-align: center;
+    }
+    .stats {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .stats-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px;
+    }
+    .stats-item span {
+      word-break: break-word;
+    }
+    .grade {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .grade-circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 8px solid #6ee7b7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: #6ee7b7;
+      font-weight: bold;
+      background-color: #121212;
+      box-shadow: 0 0 10px rgba(110, 231, 183, 0.5);
+    }
+    /* Responsividade */
+    @media (max-width: 480px) {
+      .stats-card {
+        padding: 15px;
+      }
+      .stats-card h1 {
+        font-size: 16px;
+      }
+      .stats-item {
+        font-size: 14px;
+      }
+      .grade-circle {
+        width: 60px;
+        height: 60px;
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="stats-card">
+    <h1>Anurag Hazra's GitHub Stats</h1>
+    <div class="stats">
+      <div class="stats-item">
+        <span>⭐ Total Stars:</span>
+        <span>2.2k</span>
+      </div>
+      <div class="stats-item">
+        <span>🕒 Total Commits:</span>
+        <span>1k</span>
+      </div>
+      <div class="stats-item">
+        <span>✉️ Total PRs:</span>
+        <span>202</span>
+      </div>
+      <div class="stats-item">
+        <span>❗ Total Issues:</span>
+        <span>95</span>
+      </div>
+      <div class="stats-item">
+        <span>📂 Contributed to:</span>
+        <span>63</span>
+      </div>
+    </div>
+    <div class="grade">
+      <div class="grade-circle">A++</div>
+    </div>
+  </div>
+</body>
+</html>
