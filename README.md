@@ -1,138 +1,76 @@
-## Oiii eu sou o Felpe Fernandes, criadora de conteúdo de programação e tecnologia!
+<h1 align="center">👋 Hello, I'm Felipe (uqfelipe)!</h1>
 
-Pessoal que veio atrás do **Github Stats:** a API provavelmente saiu do ar nesse período,
-mas você pode adicionar a sua própria, seguindo esse [tutorial](https://github.com/anuraghazra/github-readme-stats/blob/master/readme.md#deploy-on-your-own-vercel-instance)
+<p align="center">
+  <img src="https://img.shields.io/badge/Developer-FullStack-blue?style=for-the-badge&logo=github" alt="Developer Badge" />
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" />
+  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge" />
+</p>
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-</div>
-  
-  ##
- 
-<div> 
-  <a href="https://www.youtube.com/channel/UC_-uuuZbY0AAt9CViNzvc-Q" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
-  <a href="https://instagram.com/felipebytes" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
- 	<a href="https://www.twitch.tv/felipebytes" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
- <a href="https://discord.gg/felipebytes" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:uqfelipe@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/felipebytes" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  
-</div>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #121212;
-      color: #c9d1d9;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-    .stats-card {
-      background-color: #1f1f1f;
-      border-radius: 10px;
-      padding: 20px;
-      width: 100%;
-      max-width: 400px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-      position: relative;
-      overflow: hidden;
-    }
-    .stats-card h1 {
-      font-size: 18px;
-      margin-bottom: 15px;
-      color: #9f7aea;
-      text-align: center;
-    }
-    .stats {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .stats-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 16px;
-    }
-    .stats-item span {
-      word-break: break-word;
-    }
-    .grade {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
-    .grade-circle {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      border: 8px solid #6ee7b7;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 20px;
-      color: #6ee7b7;
-      font-weight: bold;
-      background-color: #121212;
-      box-shadow: 0 0 10px rgba(110, 231, 183, 0.5);
-    }
-    /* Responsividade */
-    @media (max-width: 480px) {
-      .stats-card {
-        padding: 15px;
-      }
-      .stats-card h1 {
-        font-size: 16px;
-      }
-      .stats-item {
-        font-size: 14px;
-      }
-      .grade-circle {
-        width: 60px;
-        height: 60px;
-        font-size: 18px;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="stats-card">
-    <h1>Anurag Hazra's GitHub Stats</h1>
-    <div class="stats">
-      <div class="stats-item">
-        <span>⭐ Total Stars:</span>
-        <span>2.2k</span>
-      </div>
-      <div class="stats-item">
-        <span>🕒 Total Commits:</span>
-        <span>1k</span>
-      </div>
-      <div class="stats-item">
-        <span>✉️ Total PRs:</span>
-        <span>202</span>
-      </div>
-      <div class="stats-item">
-        <span>❗ Total Issues:</span>
-        <span>95</span>
-      </div>
-      <div class="stats-item">
-        <span>📂 Contributed to:</span>
-        <span>63</span>
-      </div>
-    </div>
-    <div class="grade">
-      <div class="grade-circle">A++</div>
-    </div>
-  </div>
-</body>
-</html>
+---
+
+### 🚀 About Me
+- 🌟 I'm a passionate **Full-Stack Developer** with a love for building modern, scalable, and user-friendly applications.
+- 🎯 Focused on **JavaScript**, **TypeScript**, and frameworks like **React**, **Node.js**, and **Express**.
+- 📚 Continuously learning and exploring the latest tech trends.
+- 💼 Currently working on **personal projects** and collaborating on **open-source** initiatives.
+
+---
+
+### 🛠️ Tech Stack
+
+#### Frontend
+- ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+- ![Next.js](https://img.shields.io/badge/-Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
+#### Backend
+- ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+- ![Express.js](https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white)
+- ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+#### Tools & Platforms
+- ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+- ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+- ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+---
+
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=uqfelipe&show_icons=true&theme=radical&hide=stars" alt="uqfelipe's GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uqfelipe&layout=compact&theme=radical" alt="uqfelipe's Top Languages" height="150" />
+</p>
+
+---
+
+### 🌐 Connect with Me
+<p align="center">
+  <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+  </a>
+  <a href="mailto:seuemail@gmail.com">
+    <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge" />
+  </a>
+  <a href="https://discord.com/users/seu-discord" target="_blank">
+    <img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Badge" />
+  </a>
+</p>
+
+---
+
+### 🌟 Featured Projects
+#### 🛒 [E-Commerce App](https://github.com/uqfelipe/e-commerce-app)
+An elegant and responsive e-commerce platform built with **React** and **Node.js**.
+
+#### 🌍 [Portfolio Website](https://uqfelipe.dev)
+A sleek portfolio website showcasing my skills and projects.
+
+#### 📊 [GitHub Stats Visualizer](https://github.com/uqfelipe/github-stats)
+A cool tool to visualize GitHub stats dynamically using **D3.js**.
+
+---
+
+<p align="center">
+  🚀 *Let's create something amazing together!* 🚀
+</p>
