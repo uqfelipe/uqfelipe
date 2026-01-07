@@ -1,215 +1,164 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=bd93f9&height=120&section=header"/>
+
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=4A86FF&center=true&vCenter=true&width=940&lines=Olá!+👋+Eu+sou+o+Felipe;Full-Stack+Developer+🚀;Mobile+Developer+📱;DevOps+Engineer+☁️;Apaixonado+por+Tecnologia+❤️)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=BD93F9&center=true&vCenter=true&random=false&width=600&height=100&lines=Olá%2C+eu+sou+Felipe+👋;Full-Stack+Developer;Mobile+Developer;DevOps+Engineer)](https://git.io/typing-svg)
 
-```
- ______ ______ _      _____ _____  ______ ______     _______ ______  _____ 
-|  ____|  ____| |    |_   _|  __ \|  ____|  _ \ \   / /_   _|  ____|/ ____|
-| |__  | |__  | |      | | | |__) | |__  | |_) \ \_/ /  | | | |__  | (___  
-|  __| |  __| | |      | | |  ___/|  __| |  _ < \   /   | | |  __|  \___ \ 
-| |    | |____| |____ _| |_| |    | |____| |_) | | |   _| |_| |____ ____) |
-|_|    |______|______|_____|_|    |______|____/  |_|  |_____|______|_____/ 
-```
+<br>
 
-### 🌟 Desenvolvedor Full-Stack | Mobile | DevOps
-### 📍 Vargem Alegre, MG - Brasil 🇧🇷
-
----
+<img src="https://komarev.com/ghpvc/?username=felipebytes&label=Profile%20Views&color=bd93f9&style=for-the-badge" alt="Profile Views"/>
+<a href="https://github.com/felipebytes?tab=followers"><img src="https://img.shields.io/github/followers/felipebytes?label=Followers&style=for-the-badge&color=bd93f9" alt="Followers"/></a>
+<a href="https://github.com/felipebytes?tab=repositories"><img src="https://img.shields.io/github/stars/felipebytes?label=Total%20Stars&style=for-the-badge&color=bd93f9" alt="Stars"/></a>
 
 </div>
 
-## 💫 Sobre Mim
+<br>
 
-```typescript
-class Developer {
-    name: string = "Felipe";
-    username: string = "@felipebytes";
-    location: string = "Vargem Alegre, MG 🇧🇷";
-    
-    skills = {
-        frontend: {
-            web: ["JavaScript", "TypeScript", "React", "HTML5", "CSS3"],
-            mobile: ["Swift 🍎", "Kotlin 🤖", "React Native ⚛️", "Flutter 🦋"]
-        },
-        backend: ["Python 🐍", "Node.js 🟢", "Go 🔵", "Java ☕", "Ruby 💎"],
-        database: ["PostgreSQL 🐘", "MongoDB 🍃", "SQL"],
-        devops: ["Docker 🐳", "Terraform 🏗️", "Bash 💻", "CI/CD ⚙️"],
-        tools: ["Git", "VSCode", "Xcode", "Android Studio"]
-    };
-    
-    currentFocus = [
-        "🚀 Criando aplicações escaláveis",
-        "📱 Desenvolvendo apps nativos e multiplataforma",
-        "☁️ Automatizando deploys com DevOps",
-        "🌱 Contribuindo em projetos open-source"
-    ];
-    
-    funFact = "Adoro transformar café em código! ☕→💻";
-}
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" alt="Developer" width="30" /> Sobre Mim
+
+```yaml
+nome: Felipe
+localização: Vargem Alegre, MG - Brasil 🇧🇷
+cargo: Full-Stack & Mobile Developer | DevOps Engineer
+experiência: +9 anos transformando ideias em código
+
+sobre:
+  - 🚀 Apaixonado por criar aplicações escaláveis e performáticas
+  - 📱 Especialista em desenvolvimento mobile nativo e multiplataforma
+  - ☁️ Entusiasta de DevOps e automação de infraestrutura
+  - 🌱 Contribuidor ativo em projetos open-source
+  - ☕ Movido a café e boas práticas de código
+
+atualmente:
+  - 🔭 Desenvolvendo projetos full-stack inovadores
+  - 📚 Aprofundando conhecimentos em Kubernetes & Cloud Architecture
+  - 🤝 Aberto para colaborações em projetos interessantes
 ```
 
-### 🎯 Objetivos Atuais
+<br>
 
-- 🔭 Trabalhando em **projetos full-stack inovadores**
-- 🌱 Aprendendo **Kubernetes & Cloud Architecture**
-- 👯 Buscando colaborar em **projetos open-source**
-- 💬 Me pergunte sobre **JavaScript, Python, Mobile Dev**
-- ⚡ Curiosidade: **Primeiro código aos 14 anos!**
-
----
-
-## 🛠️ Arsenal Tecnológico
-
-### 🎨 Frontend Web
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### 📱 Mobile Development
-
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-
-### ⚙️ Backend & APIs
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-
-### 💾 Databases & Storage
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-### 🔧 DevOps & Cloud
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
-### 🧰 Tools & IDEs
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=felipebytes&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipebytes&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=felipebytes&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=felipebytes&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1"/>
-</div>
-
----
-
-## 🌟 Projetos em Destaque
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="30" /> Tech Stack
 
 <div align="center">
 
-| 🛒 **E-Commerce Full-Stack** | 📱 **App Mobile Multiplataforma** |
-|:---:|:---:|
-| TypeScript, React, Node.js, PostgreSQL | Swift, Kotlin, Flutter |
-| Plataforma completa com web e mobile (React Native), back-end robusto e deploy automatizado com Docker. | Desenvolvimento nativo iOS/Android + versão Flutter, arquitetura MVVM e integração com APIs REST. |
+### Frontend & Mobile
+<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css,tailwind,swift,kotlin,flutter&theme=dark" />
 
-| 🚀 **Microserviços com Go** | 📊 **Dashboard Analytics** |
-|:---:|:---:|
-| Go, Docker, Terraform | Python, TypeScript, PostgreSQL |
-| API de alta performance, containerizada e orquestrada com CI/CD automatizado via GitHub Actions. | Visualização interativa de dados com D3.js, backend Python e infraestrutura como código. |
+### Backend & Database
+<img src="https://skillicons.dev/icons?i=nodejs,python,go,java,ruby,postgres,mongodb,redis,graphql,prisma&theme=dark" />
+
+### DevOps & Cloud
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,gcp,azure,github,gitlab,linux,bash&theme=dark" />
+
+### Tools
+<img src="https://skillicons.dev/icons?i=vscode,xcode,androidstudio,figma,git,postman&theme=dark" />
 
 </div>
 
----
+<br>
 
-## 📈 Contribuições
-
-```diff
-@@                           Linha do Tempo 2024-2025                        @@
-+ 150+ commits nos últimos 6 meses
-+ 20+ repositórios criados
-+ 5+ projetos em produção
-+ Contribuições em 10+ projetos open-source
-```
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="30" /> GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=felipebytes&theme=tokyo-night&hide_border=true" alt="Contribution Graph"/>
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=felipebytes&show_icons=true&count_private=true&hide_border=true&title_color=bd93f9&icon_color=bd93f9&text_color=f8f8f2&bg_color=0d1117" alt="Felipe's GitHub Stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipebytes&layout=compact&hide_border=true&title_color=bd93f9&text_color=f8f8f2&bg_color=0d1117" alt="Most Used Languages" />
 </div>
 
----
+<div align="center">
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=felipebytes&theme=dracula&hide_border=true&stroke=bd93f9&ring=bd93f9&fire=ff79c6&currStreakLabel=bd93f9&background=0d1117" alt="GitHub Streak" />
+</div>
 
-## 💼 Experiência em Desenvolvimento
+<br>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=felipebytes&custom_title=Contribuições&hide_border=true&bg_color=0d1117&color=bd93f9&line=ff79c6&point=bd93f9&area_color=bd93f9&area=true" width="95%" alt="Activity Graph" />
+</div>
+
+<br>
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Star" width="30" /> Projetos em Destaque
+
+<div align="center">
+  <a href="https://github.com/felipebytes/ecommerce-fullstack">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=felipebytes&repo=ecommerce-fullstack&hide_border=true&bg_color=0d1117&title_color=bd93f9&icon_color=ff79c6&text_color=f8f8f2" />
+  </a>
+  <a href="https://github.com/felipebytes/mobile-app">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=felipebytes&repo=mobile-app&hide_border=true&bg_color=0d1117&title_color=bd93f9&icon_color=ff79c6&text_color=f8f8f2" />
+  </a>
+  <a href="https://github.com/felipebytes/microservices-go">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=felipebytes&repo=microservices-go&hide_border=true&bg_color=0d1117&title_color=bd93f9&icon_color=ff79c6&text_color=f8f8f2" />
+  </a>
+  <a href="https://github.com/felipebytes/analytics-dashboard">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=felipebytes&repo=analytics-dashboard&hide_border=true&bg_color=0d1117&title_color=bd93f9&icon_color=ff79c6&text_color=f8f8f2" />
+  </a>
+</div>
+
+<br>
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" alt="Trophy" width="30" /> Conquistas
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=felipebytes&theme=dracula&no-frame=true&no-bg=true&column=7" alt="GitHub Trophies" />
+</div>
+
+<br>
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="30" /> Experiência
 
 <div align="center">
 
-| 🎯 Área | 🛠️ Tecnologias | 📊 Nível |
-|---------|----------------|----------|
-| **Web Frontend** | TypeScript, React, Next.js | ⭐⭐⭐⭐⭐ |
-| **Mobile Native** | Swift (iOS), Kotlin (Android) | ⭐⭐⭐⭐⭐ |
-| **Mobile Cross-Platform** | React Native, Flutter | ⭐⭐⭐⭐ |
-| **Backend** | Python, Node.js, Go, Java | ⭐⭐⭐⭐⭐ |
-| **Databases** | PostgreSQL, MongoDB, SQL | ⭐⭐⭐⭐ |
-| **DevOps** | Docker, Terraform, CI/CD | ⭐⭐⭐⭐ |
+| Área | Tecnologias | Nível |
+|:----:|:-----------:|:-----:|
+| **Web Frontend** | TypeScript, React, Next.js | `████████████████████` |
+| **Mobile Native** | Swift (iOS), Kotlin (Android) | `████████████████████` |
+| **Mobile Cross-Platform** | React Native, Flutter | `████████████████░░░░` |
+| **Backend** | Python, Node.js, Go, Java | `████████████████████` |
+| **Databases** | PostgreSQL, MongoDB, Redis | `████████████████░░░░` |
+| **DevOps** | Docker, Terraform, CI/CD | `████████████████░░░░` |
 
 </div>
 
----
+<br>
 
-## 📫 Conecte-se Comigo
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Incoming%20Envelope.png" alt="Contact" width="30" /> Conecte-se Comigo
 
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/felipebytes)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/felipebytes)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:felipebytes@icloud.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://felipebytes.dev)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/felipebytes)
-
+  <a href="https://linkedin.com/in/felipebytes">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:felipe@icloud.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://github.com/felipebytes">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://twitter.com/felipebytes">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+  <a href="https://felipebytes.dev">
+    <img src="https://img.shields.io/badge/Portfolio-bd93f9?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"/>
+  </a>
 </div>
 
----
+<br>
 
 <div align="center">
-
-### 💭 Frase do Dia
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true)
-
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula&border=true" alt="Random Dev Quote" />
 </div>
 
----
+<br>
 
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/felipebytes/felipebytes/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/felipebytes/felipebytes/output/github-contribution-grid-snake.svg">
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/felipebytes/felipebytes/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 
-### ☕ Se meu código te ajudou, que tal um café?
+<br>
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/felipebytes)
-
-**Transformando ideias em código desde 2015** 🚀
+<div align="center">
 
 ```javascript
 while (alive) {
@@ -220,12 +169,10 @@ while (alive) {
 }
 ```
 
-### ⚡ "Código limpo não é escrito seguindo regras. É escrito por alguém que se importa." - Robert C. Martin
-
----
-
-![Profile Views](https://komarev.com/ghpvc/?username=felipebytes&color=4A86FF&style=for-the-badge&label=VISITANTES)
-
-**✨ Vamos criar algo incrível juntos! ✨**
+**"Código limpo não é escrito seguindo regras. É escrito por alguém que se importa."**
+<br>
+*— Robert C. Martin*
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=bd93f9&height=120&section=footer"/>
