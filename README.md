@@ -9,24 +9,23 @@
 <img src="https://img.shields.io/badge/DevOps-Cloud%20Ready-orange?style=for-the-badge&logo=docker&logoColor=white" />
 
 <br/>
-```
+
  ______ ______ _      _____ _____  ______ ______     _______ ______  _____ 
 |  ____|  ____| |    |_   _|  __ \|  ____|  _ \ \   / /_   _|  ____|/ ____|
 | |__  | |__  | |      | | | |__) | |__  | |_) \ \_/ /  | | | |__  | (___  
 |  __| |  __| | |      | | |  ___/|  __| |  _ < \   /   | | |  __|  \___ \ 
 | |    | |____| |____ _| |_| |    | |____| |_) | | |   _| |_| |____ ____) |
 |_|    |______|______|_____|_|    |______|____/  |_|  |_____|______|_____/ 
-```
+
 
 ### 🌟 Desenvolvedor Full-Stack | Mobile | DevOps
 ### 📍 Vargem Alegre, MG - Brasil 🇧🇷
 
 </div>
 
----
 
 ## 💫 Sobre Mim
-```typescript
+typescript
 class Developer {
     name: string = "Felipe";
     username: string = "@felipebytes";
@@ -52,7 +51,6 @@ class Developer {
     
     funFact = "Adoro transformar café em código! ☕→💻";
 }
-```
 
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
@@ -66,7 +64,6 @@ class Developer {
 
 <br clear="both">
 
----
 
 ## 🛠️ Arsenal Tecnológico
 
@@ -138,7 +135,7 @@ class Developer {
 
 </div>
 
----
+
 
 ## 📊 GitHub Analytics
 
@@ -155,7 +152,7 @@ class Developer {
   <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=felipebytes&custom_title=Felipe's%20Contribution%20Graph&bg_color=0D1117&color=4A86FF&line=4A86FF&point=FFFFFF&area_color=0D1117&title_color=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
 </div>
 
----
+
 
 ## 🏆 GitHub Trophies
 
@@ -163,7 +160,7 @@ class Developer {
   <img src="https://github-profile-trophy.vercel.app/?username=felipebytes&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
 </div>
 
----
+
 
 ## 🌟 Projetos em Destaque
 
@@ -217,7 +214,7 @@ class Developer {
 
 </div>
 
----
+
 
 ## 📈 Contribuições
 
@@ -240,14 +237,14 @@ class Developer {
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/felipebytes/felipebytes/output/github-contribution-grid-snake.svg">
 </picture>
 
----
+
 
 ## 💼 Experiência em Desenvolvimento
 
 <div align="center">
 
 | 🎯 Área | 🛠️ Tecnologias | 📊 Nível |
-|---------|---------------|----------|
+|||-|
 | **Web Frontend** | TypeScript, React, Next.js | ⭐⭐⭐⭐⭐ |
 | **Mobile Native** | Swift (iOS), Kotlin (Android) | ⭐⭐⭐⭐⭐ |
 | **Mobile Cross-Platform** | React Native, Flutter | ⭐⭐⭐⭐ |
@@ -257,7 +254,7 @@ class Developer {
 
 </div>
 
----
+
 
 ## 📫 Conecte-se Comigo
 
@@ -288,7 +285,7 @@ class Developer {
 
 </div>
 
----
+
 
 <div align="center">
 
@@ -298,7 +295,7 @@ class Developer {
 
 </div>
 
----
+
 
 <div align="center">
 
