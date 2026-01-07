@@ -17,10 +17,10 @@
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" alt="Developer" width="30" /> Sobre Mim
 
 ```yaml
-nome: Felipe
+nome: Felipe Bytes
 localização: Piedade de Caratinga, MG - Brasil 🇧🇷
 cargo: Full-Stack & Mobile Developer | DevOps Engineer
-experiência: +9 anos transformando ideias em código
+experiência: Deste os 12 anos transformando ideias em código
 
 sobre:
   - 🚀 Apaixonado por criar aplicações escaláveis e performáticas
