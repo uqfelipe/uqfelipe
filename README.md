@@ -10,21 +10,26 @@
 <img src="https://img.shields.io/badge/DevOps-Cloud%20Ready-orange?style=for-the-badge&logo=docker&logoColor=white" />
 
 <br/>
+
+```
  ______ ______ _      _____ _____  ______ ______     _______ ______  _____ 
 |  ____|  ____| |    |_   _|  __ \|  ____|  _ \ \   / /_   _|  ____|/ ____|
 | |__  | |__  | |      | | | |__) | |__  | |_) \ \_/ /  | | | |__  | (___  
 |  __| |  __| | |      | | |  ___/|  __| |  _ < \   /   | | |  __|  \___ \ 
 | |    | |____| |____ _| |_| |    | |____| |_) | | |   _| |_| |____ ____) |
 |_|    |______|______|_____|_|    |______|____/  |_|  |_____|______|_____/ 
+```
 
 ### 🌟 Desenvolvedor Full-Stack | Mobile | DevOps
 ### 📍 Vargem Alegre, MG - Brasil 🇧🇷
 
 </div>
 
+---
+
 ## 💫 Sobre Mim
 
-typescript
+```typescript
 class Developer {
     name: string = "Felipe";
     username: string = "@felipebytes";
@@ -50,7 +55,7 @@ class Developer {
     
     funFact = "Adoro transformar café em código! ☕→💻";
 }
-
+```
 
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
@@ -221,13 +226,13 @@ class Developer {
 
 <div align="center">
   
-diff
+```diff
 @@                           Linha do Tempo 2024-2025                        @@
 + 150+ commits nos últimos 6 meses
 + 20+ repositórios criados
 + 5+ projetos em produção
 + Contribuições em 10+ projetos open-source
-
+```
 
 </div>
 
@@ -306,14 +311,15 @@ diff
 **Transformando ideias em código desde 2015** 🚀
 
 <br/>
-javascript
+
+```javascript
 while (alive) {
     eat();
     code();
     sleep();
     repeat();
 }
-
+```
 
 <br/>
 
