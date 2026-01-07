@@ -18,7 +18,7 @@
 
 ```yaml
 nome: Felipe
-localização: Vargem Alegre, MG - Brasil 🇧🇷
+localização: Piedade de Caratinga, MG - Brasil 🇧🇷
 cargo: Full-Stack & Mobile Developer | DevOps Engineer
 experiência: +9 anos transformando ideias em código
 
