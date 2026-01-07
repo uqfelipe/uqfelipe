@@ -1,576 +1,328 @@
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Felipe (@felipebytes) - Desenvolvedor Full-Stack</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #fff;
-            line-height: 1.6;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            background: linear-gradient(45deg, #fff, #4A86FF);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .subtitle {
-            font-size: 1.5em;
-            color: #4A86FF;
-            margin-bottom: 20px;
-        }
-
-        .typing-animation {
-            font-size: 1.2em;
-            color: #fff;
-            margin: 20px 0;
-        }
-
-        .badges {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin: 20px 0;
-        }
-
-        .badge {
-            padding: 8px 16px;
-            background: rgba(74, 134, 255, 0.3);
-            border-radius: 5px;
-            font-weight: bold;
-            border: 2px solid #4A86FF;
-        }
-
-        section {
-            margin: 50px 0;
-            padding: 30px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 15px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        h2 {
-            font-size: 2.5em;
-            margin-bottom: 30px;
-            text-align: center;
-            color: #4A86FF;
-        }
-
-        .about-code {
-            background: #1e1e1e;
-            padding: 25px;
-            border-radius: 10px;
-            font-family: 'Courier New', monospace;
-            overflow-x: auto;
-            color: #d4d4d4;
-            line-height: 1.8;
-        }
-
-        .code-line {
-            margin: 5px 0;
-        }
-
-        .key {
-            color: #9cdcfe;
-        }
-
-        .string {
-            color: #ce9178;
-        }
-
-        .bracket {
-            color: #ffd700;
-        }
-
-        .tech-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin: 30px 0;
-        }
-
-        .tech-category {
-            background: rgba(255, 255, 255, 0.08);
-            padding: 25px;
-            border-radius: 12px;
-            border: 2px solid rgba(74, 134, 255, 0.3);
-            transition: transform 0.3s ease;
-        }
-
-        .tech-category:hover {
-            transform: translateY(-5px);
-            border-color: #4A86FF;
-        }
-
-        .tech-category h3 {
-            color: #4A86FF;
-            margin-bottom: 15px;
-            font-size: 1.5em;
-        }
-
-        .tech-badges {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .tech-badge {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 8px 15px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            font-weight: bold;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            transition: transform 0.2s ease;
-        }
-
-        .tech-badge:hover {
-            transform: scale(1.05);
-        }
-
-        .stats-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
-        }
-
-        .stat-card {
-            background: rgba(255, 255, 255, 0.08);
-            padding: 20px;
-            border-radius: 12px;
-            text-align: center;
-            border: 2px solid rgba(74, 134, 255, 0.3);
-        }
-
-        .stat-card img {
-            max-width: 100%;
-            border-radius: 8px;
-        }
-
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 30px 0;
-        }
-
-        .project-card {
-            background: rgba(255, 255, 255, 0.08);
-            padding: 30px;
-            border-radius: 15px;
-            border: 2px solid rgba(74, 134, 255, 0.3);
-            transition: transform 0.3s ease;
-        }
-
-        .project-card:hover {
-            transform: translateY(-10px);
-            border-color: #4A86FF;
-            box-shadow: 0 10px 30px rgba(74, 134, 255, 0.3);
-        }
-
-        .project-card h3 {
-            color: #4A86FF;
-            margin-bottom: 15px;
-            font-size: 1.8em;
-        }
-
-        .project-card p {
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-
-        .experience-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 30px 0;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .experience-table th,
-        .experience-table td {
-            padding: 15px;
-            text-align: left;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .experience-table th {
-            background: rgba(74, 134, 255, 0.3);
-            font-weight: bold;
-            font-size: 1.1em;
-        }
-
-        .experience-table tr:hover {
-            background: rgba(255, 255, 255, 0.1);
-        }
-
-        .contact-section {
-            text-align: center;
-        }
-
-        .contact-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin: 30px 0;
-        }
-
-        .contact-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            padding: 12px 25px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #fff;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: bold;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .contact-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(74, 134, 255, 0.4);
-        }
-
-        .divider {
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #4A86FF, transparent);
-            margin: 50px 0;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            padding: 30px;
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 15px;
-        }
-
-        footer p {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-
-        .emoji {
-            font-size: 1.5em;
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2em;
-            }
-
-            h2 {
-                font-size: 1.8em;
-            }
-
-            .container {
-                padding: 20px;
-            }
-
-            .tech-grid,
-            .projects-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* Animações */
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        section {
-            animation: fadeIn 0.6s ease-out;
-        }
-
-        .pulse {
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0.7;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Header -->
-        <header>
-            <h1><span class="emoji">👋</span> Olá! Eu sou o Felipe</h1>
-            <div class="subtitle">@felipebytes</div>
-            <div class="typing-animation pulse">
-                Desenvolvedor Full-Stack | Especialista em Mobile | Apaixonado por Tecnologia
-            </div>
-            <div class="badges">
-                <span class="badge">Developer Full-Stack</span>
-                <span class="badge">Mobile iOS | Android</span>
-                <span class="badge">DevOps Cloud Ready</span>
-            </div>
-        </header>
-
-        <div class="divider"></div>
-
-        <!-- Sobre Mim -->
-        <section id="about">
-            <h2><span class="emoji">🚀</span> Sobre Mim</h2>
-            <div class="about-code">
-<span class="code-line"><span class="key">const</span> felipe = <span class="bracket">{</span></span>
-<span class="code-line">    <span class="key">localização:</span> <span class="string">"Vargem Alegre, MG 🇧🇷"</span>,</span>
-<span class="code-line">    <span class="key">especialidades:</span> [<span class="string">"Full-Stack"</span>, <span class="string">"Mobile"</span>, <span class="string">"DevOps"</span>],</span>
-<span class="code-line">    <span class="key">tecnologias:</span> <span class="bracket">{</span></span>
-<span class="code-line">        <span class="key">frontend:</span> <span class="bracket">{</span></span>
-<span class="code-line">            <span class="key">web:</span> [<span class="string">"JavaScript"</span>, <span class="string">"TypeScript"</span>],</span>
-<span class="code-line">            <span class="key">mobile:</span> [<span class="string">"Swift"</span>, <span class="string">"Kotlin"</span>, <span class="string">"React Native"</span>, <span class="string">"Flutter"</span>]</span>
-<span class="code-line">        <span class="bracket">}</span>,</span>
-<span class="code-line">        <span class="key">backend:</span> [<span class="string">"Python"</span>, <span class="string">"Node.js"</span>, <span class="string">"Go"</span>, <span class="string">"Java"</span>],</span>
-<span class="code-line">        <span class="key">database:</span> [<span class="string">"PostgreSQL"</span>, <span class="string">"SQL"</span>, <span class="string">"MongoDB"</span>],</span>
-<span class="code-line">        <span class="key">devops:</span> [<span class="string">"Docker"</span>, <span class="string">"Terraform"</span>, <span class="string">"CI/CD"</span>, <span class="string">"Bash"</span>]</span>
-<span class="code-line">    <span class="bracket">}</span>,</span>
-<span class="code-line">    <span class="key">foco:</span> <span class="string">"Criar aplicações escaláveis do front ao deploy"</span>,</span>
-<span class="code-line">    <span class="key">paixão:</span> <span class="string">"Aprender novas tecnologias todos os dias"</span>,</span>
-<span class="code-line">    <span class="key">atualmente:</span> <span class="string">"Desenvolvendo projetos próprios e contribuindo em open-source"</span></span>
-<span class="code-line"><span class="bracket">}</span>;</span>
-            </div>
-        </section>
-
-        <div class="divider"></div>
-
-        <!-- Stack Tecnológico -->
-        <section id="tech-stack">
-            <h2><span class="emoji">🛠️</span> Stack Tecnológico</h2>
-            <div class="tech-grid">
-                <div class="tech-category">
-                    <h3><span class="emoji">🎨</span> Frontend Web</h3>
-                    <div class="tech-badges">
-                        <span class="tech-badge">JavaScript</span>
-                        <span class="tech-badge">TypeScript</span>
-                        <span class="tech-badge">React</span>
-                        <span class="tech-badge">HTML5</span>
-                        <span class="tech-badge">CSS3</span>
-                    </div>
-                </div>
-
-                <div class="tech-category">
-                    <h3><span class="emoji">📱</span> Mobile</h3>
-                    <div class="tech-badges">
-                        <span class="tech-badge">Swift</span>
-                        <span class="tech-badge">Kotlin</span>
-                        <span class="tech-badge">React Native</span>
-                        <span class="tech-badge">Flutter</span>
-                        <span class="tech-badge">Dart</span>
-                    </div>
-                </div>
-
-                <div class="tech-category">
-                    <h3><span class="emoji">⚙️</span> Backend</h3>
-                    <div class="tech-badges">
-                        <span class="tech-badge">Python</span>
-                        <span class="tech-badge">Node.js</span>
-                        <span class="tech-badge">Go</span>
-                        <span class="tech-badge">Java</span>
-                        <span class="tech-badge">Ruby</span>
-                    </div>
-                </div>
-
-                <div class="tech-category">
-                    <h3><span class="emoji">💾</span> Banco de Dados</h3>
-                    <div class="tech-badges">
-                        <span class="tech-badge">PostgreSQL</span>
-                        <span class="tech-badge">MongoDB</span>
-                        <span class="tech-badge">SQL</span>
-                        <span class="tech-badge">PL/pgSQL</span>
-                    </div>
-                </div>
-
-                <div class="tech-category">
-                    <h3><span class="emoji">🔧</span> DevOps</h3>
-                    <div class="tech-badges">
-                        <span class="tech-badge">Docker</span>
-                        <span class="tech-badge">Terraform</span>
-                        <span class="tech-badge">Bash</span>
-                        <span class="tech-badge">CI/CD</span>
-                        <span class="tech-badge">YAML</span>
-                    </div>
-                </div>
-
-                <div class="tech-category">
-                    <h3><span class="emoji">🧰</span> Ferramentas</h3>
-                    <div class="tech-badges">
-                        <span class="tech-badge">Git</span>
-                        <span class="tech-badge">VSCode</span>
-                        <span class="tech-badge">Xcode</span>
-                        <span class="tech-badge">Android Studio</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="divider"></div>
-
-        <!-- Estatísticas GitHub -->
-        <section id="stats">
-            <h2><span class="emoji">📊</span> Estatísticas GitHub</h2>
-            <div class="stats-container">
-                <div class="stat-card">
-                    <img src="https://github-readme-stats.vercel.app/api?username=felipebytes&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats">
-                </div>
-                <div class="stat-card">
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipebytes&layout=compact&langs_count=8&theme=tokyonight" alt="Top Languages">
-                </div>
-            </div>
-            <div class="stat-card" style="margin-top: 20px;">
-                <img src="https://github-readme-streak-stats.herokuapp.com/?user=felipebytes&theme=tokyonight" alt="GitHub Streak">
-            </div>
-        </section>
-
-        <div class="divider"></div>
-
-        <!-- Projetos em Destaque -->
-        <section id="projects">
-            <h2><span class="emoji">🌟</span> Projetos em Destaque</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3><span class="emoji">🛒</span> E-Commerce Full-Stack</h3>
-                    <p>Plataforma completa com web (React + TypeScript) e mobile (React Native), back-end em Python/Node.js, PostgreSQL e deploy automatizado com Docker.</p>
-                </div>
-
-                <div class="project-card">
-                    <h3><span class="emoji">📱</span> App Mobile Nativo</h3>
-                    <p>Desenvolvimento nativo com Swift (iOS) e Kotlin (Android), incluindo arquitetura MVVM, integração com APIs REST e CI/CD automatizado.</p>
-                </div>
-
-                <div class="project-card">
-                    <h3><span class="emoji">🌐</span> Website de Portfólio</h3>
-                    <p>Site elegante e responsivo construído com TypeScript, hospedado em infraestrutura como código (Terraform) com pipeline CI/CD.</p>
-                </div>
-
-                <div class="project-card">
-                    <h3><span class="emoji">🚀</span> Microserviços com Go</h3>
-                    <p>API de alta performance em Go, PostgreSQL, containerizada com Docker e orquestrada com GitHub Actions para deploy automático.</p>
-                </div>
-            </div>
-        </section>
-
-        <div class="divider"></div>
-
-        <!-- Experiência em Desenvolvimento -->
-        <section id="experience">
-            <h2><span class="emoji">📈</span> Experiência em Desenvolvimento</h2>
-            <table class="experience-table">
-                <thead>
-                    <tr>
-                        <th>Área</th>
-                        <th>Tecnologias Principais</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Web Frontend</strong></td>
-                        <td>TypeScript, JavaScript, React</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Mobile Native</strong></td>
-                        <td>Swift (iOS), Kotlin (Android)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Mobile Cross</strong></td>
-                        <td>React Native, Flutter (Dart)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Backend</strong></td>
-                        <td>Python, Node.js, Go, Java</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Databases</strong></td>
-                        <td>PostgreSQL, SQL, MongoDB</td>
-                    </tr>
-                    <tr>
-                        <td><strong>DevOps/Infra</strong></td>
-                        <td>Docker, Terraform, Bash, CI/CD</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <div class="divider"></div>
-
-        <!-- Entre em Contato -->
-        <section id="contact" class="contact-section">
-            <h2><span class="emoji">📫</span> Entre em Contato</h2>
-            <div class="contact-links">
-                <a href="https://instagram.com/felipebytes" target="_blank" class="contact-btn">
-                    <span class="emoji">📷</span> Instagram
-                </a>
-                <a href="https://twitter.com/felipebytes" target="_blank" class="contact-btn">
-                    <span class="emoji">🐦</span> Twitter
-                </a>
-                <a href="https://wa.me/5533998352941" target="_blank" class="contact-btn">
-                    <span class="emoji">💬</span> WhatsApp
-                </a>
-                <a href="https://t.me/ufelipe" target="_blank" class="contact-btn">
-                    <span class="emoji">✈️</span> Telegram
-                </a>
-                <a href="mailto:ufelipe@icloud.com" class="contact-btn">
-                    <span class="emoji">✉️</span> Email
-                </a>
-                <a href="https://www.youtube.com/felipebytes" target="_blank" class="contact-btn">
-                    <span class="emoji">🎥</span> YouTube
-                </a>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer>
-            <p><span class="emoji">✨</span> <strong>Do front-end ao deploy: criando soluções completas!</strong> <span class="emoji">✨</span></p>
-            <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.8;">
-                Desenvolvido com <span class="emoji">❤️</span> por Felipe (@felipebytes)
-            </p>
-        </footer>
-    </div>
-
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=4A86FF&height=120&section=header"/>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=4A86FF&center=true&vCenter=true&width=940&lines=Ol%C3%A1!+%F0%9F%91%8B+Eu+sou+o+Felipe;Full-Stack+Developer+%F0%9F%9A%80;Mobile+Developer+%F0%9F%93%B1;DevOps+Engineer+%E2%98%81%EF%B8%8F;Apaixonado+por+Tecnologia+%E2%9D%A4%EF%B8%8F)](https://git.io/typing-svg)
+
+<img src="https://img.shields.io/badge/Developer-FullStack-4A86FF?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Mobile-iOS%20%7C%20Android-success?style=for-the-badge&logo=mobile&logoColor=white" />
+<img src="https://img.shields.io/badge/DevOps-Cloud%20Ready-orange?style=for-the-badge&logo=docker&logoColor=white" />
+
+<br/>
+ ______ ______ _      _____ _____  ______ ______     _______ ______  _____ 
+|  ____|  ____| |    |_   _|  __ \|  ____|  _ \ \   / /_   _|  ____|/ ____|
+| |__  | |__  | |      | | | |__) | |__  | |_) \ \_/ /  | | | |__  | (___  
+|  __| |  __| | |      | | |  ___/|  __| |  _ < \   /   | | |  __|  \___ \ 
+| |    | |____| |____ _| |_| |    | |____| |_) | | |   _| |_| |____ ____) |
+|_|    |______|______|_____|_|    |______|____/  |_|  |_____|______|_____/ 
+
+### 🌟 Desenvolvedor Full-Stack | Mobile | DevOps
+### 📍 Vargem Alegre, MG - Brasil 🇧🇷
+
+</div>
+
+## 💫 Sobre Mim
+
+typescript
+class Developer {
+    name: string = "Felipe";
+    username: string = "@felipebytes";
+    location: string = "Vargem Alegre, MG 🇧🇷";
+    
+    skills = {
+        frontend: {
+            web: ["JavaScript", "TypeScript", "React", "HTML5", "CSS3"],
+            mobile: ["Swift 🍎", "Kotlin 🤖", "React Native ⚛️", "Flutter 🦋"]
+        },
+        backend: ["Python 🐍", "Node.js 🟢", "Go 🔵", "Java ☕", "Ruby 💎"],
+        database: ["PostgreSQL 🐘", "MongoDB 🍃", "SQL"],
+        devops: ["Docker 🐳", "Terraform 🏗️", "Bash 💻", "CI/CD ⚙️"],
+        tools: ["Git", "VSCode", "Xcode", "Android Studio"]
+    };
+    
+    currentFocus = [
+        "🚀 Criando aplicações escaláveis",
+        "📱 Desenvolvendo apps nativos e multiplataforma",
+        "☁️ Automatizando deploys com DevOps",
+        "🌱 Contribuindo em projetos open-source"
+    ];
+    
+    funFact = "Adoro transformar café em código! ☕→💻";
+}
+
+
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
+
+### 🎯 Objetivos Atuais
+
+- 🔭 Trabalhando em **projetos full-stack inovadores**
+- 🌱 Aprendendo **Kubernetes & Cloud Architecture**
+- 👯 Buscando colaborar em **projetos open-source**
+- 💬 Me pergunte sobre **JavaScript, Python, Mobile Dev**
+- ⚡ Curiosidade: **Primeiro código aos 14 anos!**
+
+<br clear="both">
+
+---
+
+## 🛠️ Arsenal Tecnológico
+
+<div align="center">
+
+### 🎨 Frontend Web
+<p>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
+
+### 📱 Mobile Development
+<p>
+<img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" />
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" />
+<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+</p>
+
+### ⚙️ Backend & APIs
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+</p>
+
+### 💾 Databases & Storage
+<p>
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+</p>
+
+### 🔧 DevOps & Cloud
+<p>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+</p>
+
+### 🧰 Tools & IDEs
+<p>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+<img src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white" />
+<img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" />
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+</p>
+
+</div>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=felipebytes&show_icons=true&count_private=true&hide_border=true&title_color=4A86FF&icon_color=4A86FF&text_color=c9d1d9&bg_color=0d1117" alt="Felipe GitHub Stats" /> 
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipebytes&layout=compact&hide_border=true&title_color=4A86FF&text_color=c9d1d9&bg_color=0d1117&langs_count=8" />
+</div>
+
+<div align="center">
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com?user=felipebytes&theme=tokyonight&hide_border=true&background=0D1117&stroke=0000&ring=4A86FF&fire=4A86FF&currStreakLabel=4A86FF" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=felipebytes&custom_title=Felipe's%20Contribution%20Graph&bg_color=0D1117&color=4A86FF&line=4A86FF&point=FFFFFF&area_color=0D1117&title_color=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=felipebytes&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
+</div>
+
+---
+
+## 🌟 Projetos em Destaque
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%">
+<h3 align="center">🛒 E-Commerce Full-Stack</h3>
+<div align="center">  
+<a href="https://github.com/uqfelipe/e-commerce-app" target="_blank">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=uqfelipe&repo=e-commerce-app&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="E-Commerce" />
+</a>
+<p><strong>TypeScript, React, Node.js, PostgreSQL</strong> - Plataforma completa com web e mobile (React Native), back-end robusto e deploy automatizado com Docker.</p>
+</div>
+</td>
+
+<td width="50%">
+<h3 align="center">📱 App Mobile Multiplataforma</h3>
+<div align="center">
+<a href="https://github.com/uqfelipe/mobile-app" target="_blank">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=uqfelipe&repo=mobile-app&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Mobile App" />
+</a>
+<p><strong>Swift, Kotlin, Flutter</strong> - Desenvolvimento nativo iOS/Android + versão Flutter, arquitetura MVVM e integração com APIs REST.</p>
+</div>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+<h3 align="center">🚀 Microserviços com Go</h3>
+<div align="center">
+<a href="https://github.com/uqfelipe/go-microservices" target="_blank">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=uqfelipe&repo=go-microservices&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Microservices" />
+</a>
+<p><strong>Go, Docker, Terraform</strong> - API de alta performance, containerizada e orquestrada com CI/CD automatizado via GitHub Actions.</p>
+</div>
+</td>
+
+<td width="50%">
+<h3 align="center">📊 Dashboard Analytics</h3>
+<div align="center">
+<a href="https://github.com/uqfelipe/github-stats" target="_blank">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=uqfelipe&repo=github-stats&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Analytics" />
+</a>
+<p><strong>Python, TypeScript, PostgreSQL</strong> - Visualização interativa de dados com D3.js, backend Python e infraestrutura como código.</p>
+</div>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 📈 Contribuições
+
+<div align="center">
+  
+diff
+@@                           Linha do Tempo 2024-2025                        @@
++ 150+ commits nos últimos 6 meses
++ 20+ repositórios criados
++ 5+ projetos em produção
++ Contribuições em 10+ projetos open-source
+
+
+</div>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/felipebytes/felipebytes/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/felipebytes/felipebytes/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/felipebytes/felipebytes/output/github-contribution-grid-snake.svg">
+</picture>
+
+---
+
+## 💼 Experiência em Desenvolvimento
+
+<div align="center">
+
+| 🎯 Área | 🛠️ Tecnologias | 📊 Nível |
+|---------|---------------|----------|
+| **Web Frontend** | TypeScript, React, Next.js | ⭐⭐⭐⭐⭐ |
+| **Mobile Native** | Swift (iOS), Kotlin (Android) | ⭐⭐⭐⭐⭐ |
+| **Mobile Cross-Platform** | React Native, Flutter | ⭐⭐⭐⭐ |
+| **Backend** | Python, Node.js, Go, Java | ⭐⭐⭐⭐⭐ |
+| **Databases** | PostgreSQL, MongoDB, SQL | ⭐⭐⭐⭐ |
+| **DevOps** | Docker, Terraform, CI/CD | ⭐⭐⭐⭐ |
+
+</div>
+
+---
+
+## 📫 Conecte-se Comigo
+
+<div align="center">
+
+<a href="https://instagram.com/felipebytes" target="_blank">
+<img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+<a href="https://twitter.com/felipebytes" target="_blank">
+<img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+</a>
+<a href="https://wa.me/5533998352941" target="_blank">
+<img src="https://img.shields.io/badge/-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</a>
+<a href="https://t.me/ufelipe" target="_blank">
+<img src="https://img.shields.io/badge/-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
+</a>
+<a href="mailto:ufelipe@icloud.com">
+<img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://www.youtube.com/felipebytes" target="_blank">
+<img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=felipebytes&color=4A86FF&style=for-the-badge&label=VISUALIZAÇÕES+DO+PERFIL" alt="Profile views" />
+
+</div>
+
+---
+
+<div align="center">
+
+### 💭 Frase do Dia
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true)
+
+</div>
+
+---
+
+<div align="center">
+
+### ☕ Se meu código te ajudou, que tal um café?
+
+**Transformando ideias em código desde 2015** 🚀
+
+<br/>
+javascript
+while (alive) {
+    eat();
+    code();
+    sleep();
+    repeat();
+}
+
+
+<br/>
+
+### ⚡ "Código limpo não é escrito seguindo regras. É escrito por alguém que se importa." - Robert C. Martin
+
+<br/>
+
+**✨ Vamos criar algo incrível juntos! ✨**
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=4A86FF&height=120&section=footer"/>
