@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=4A86FF&height=120&section=header"/>
@@ -10,7 +9,6 @@
 <img src="https://img.shields.io/badge/DevOps-Cloud%20Ready-orange?style=for-the-badge&logo=docker&logoColor=white" />
 
 <br/>
-
 ```
  ______ ______ _      _____ _____  ______ ______     _______ ______  _____ 
 |  ____|  ____| |    |_   _|  __ \|  ____|  _ \ \   / /_   _|  ____|/ ____|
@@ -28,7 +26,6 @@
 ---
 
 ## 💫 Sobre Mim
-
 ```typescript
 class Developer {
     name: string = "Felipe";
@@ -225,7 +222,6 @@ class Developer {
 ## 📈 Contribuições
 
 <div align="center">
-  
 ```diff
 @@                           Linha do Tempo 2024-2025                        @@
 + 150+ commits nos últimos 6 meses
@@ -311,7 +307,6 @@ class Developer {
 **Transformando ideias em código desde 2015** 🚀
 
 <br/>
-
 ```javascript
 while (alive) {
     eat();
