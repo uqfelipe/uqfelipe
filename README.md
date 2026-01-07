@@ -160,14 +160,13 @@ atualmente:
 
 <div align="center">
 
-```javascript
+javascript
 while (alive) {
     eat();
     code();
     sleep();
     repeat();
 }
-```
 
 **"Código limpo não é escrito seguindo regras. É escrito por alguém que se importa."**
 <br>
